@@ -52,12 +52,6 @@ The dataset is expected to contain these splits:
 - `val`
 - `test`
 
-The training and validation records should be compatible with the format expected by TRL's `SFTTrainer`. For example, a conversational dataset may contain a `messages` field:
-
-```json
-{"messages":[{"role":"user","content":"What is machine learning?"},{"role":"assistant","content":"Machine learning is a method for learning patterns from data."}]}
-```
-
 ## Authentication
 
 Store the following secrets in Google Colab under **Secrets**:
