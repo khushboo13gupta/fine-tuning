@@ -1,6 +1,6 @@
 # Fine-tuning with QLoRA
 
-This repository fine-tunes `meta-llama/Llama-3.2-3B` with QLoRA using Hugging Face Transformers, TRL, PEFT, and Weights & Biases.
+This repository demonstrates how to fine-tune Meta's Llama 3.2 3B model with QLoRA using Hugging Face Transformers, TRL, PEFT, and Weights & Biases. It includes everything needed to prepare a dataset, train a low-rank adapted model, evaluate it on a held-out test split, and optionally deploy the model through Modal for inference.
 
 ## Project structure
 
